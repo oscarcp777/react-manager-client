@@ -1,0 +1,55 @@
+{
+  "name": "react-manager-client",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Playing with different react lib for build Component in React-Redux web applications",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscarcp777/react-manager-client"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "redux-form",
+    "react login"
+  ],
+  "author": "Oscar Caceres Paredes",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "react-scripts": "0.9.0",
+    "redux-logger": "^2.10.2",
+    "redux-devtools-extension": "^2.13.0",
+    "redux-immutable-state-invariant": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-addons-transition-group": "^15.5.2",
+    "react-datepicker": "^0.46.0",
+    "react-dom": "^15.5.4",
+    "react-dropzone": "^3.12.2",
+    "react-image-gallery": "^0.7.14",
+    "react-redux": "^5.0.3",
+    "react-router-dom": "^4.0.0",
+    "react-select": "^1.0.0-rc.3",
+    "reactstrap": "4.2.0",
+    "redux": "^3.6.0",
+    "redux-form": "^6.6.3",
+    "redux-react-session": "^1.1.2",
+    "redux-thunk": "^2.2.0",
+    "sematable": "^1.4.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

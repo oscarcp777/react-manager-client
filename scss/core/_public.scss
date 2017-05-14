@@ -1,0 +1,139 @@
+.login-wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    overflow-x: hidden;
+    background-color: #fff;
+
+    .bg-pic {
+        img {}
+    }
+
+    .login-block {
+        background-color: #fff;
+
+        .logo {
+            margin: 200px 0 80px;
+        }
+
+        .mail {
+            margin-top: 50px;
+
+            h2 {
+                color: $text-dark;
+            }
+
+            i {
+                color: #38C6FD;
+                font-size: 7em;
+                margin-bottom: 20px;
+            }
+        }
+
+        .txt-msg {
+            color: $text-msg;
+            text-align: center;
+        }
+
+        .form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+
+        .form-register {
+            max-width: 530px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+
+        .login-footer {
+            color: $text-msg;
+            width: 100%;
+            bottom: 2em;
+            position: absolute;
+        }
+    }
+}
+@include media-breakpoint-down(md) {
+    .login-wrapper {
+        .login-block {
+            .logo {
+                margin: 50px 0 30px;
+            }
+        }
+    }
+}
+@include media-breakpoint-down(xs) {
+    .login-wrapper {
+        .login-block {
+            .logo {
+                margin: 2em;
+            }
+
+            .login-footer {
+                bottom: 0;
+            }
+
+            .form-register {
+                max-width: 300px;
+            }
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+    .login-wrapper {
+        .login-block {
+            .logo {
+                margin: 2em;
+            }
+
+            .form-register {
+                max-width: 330px;
+            }
+        }
+    }
+}
+@include media-breakpoint-between(lg, xl) {
+    .login-wrapper {
+        .bg-pic {
+            img {
+                height: 900px;
+            }
+        }
+
+        .login-block {
+            .form-register {
+                padding: 0 10px !important;
+            }
+
+            .logo {
+                margin: 50px 0 30px;
+            }
+        }
+    }
+}
+@media (min-width: 1450px) {
+    .login-wrapper {
+        .bg-pic {
+            img {
+                height: 1350px;
+            }
+        }
+
+        .login-block {
+            .logo {
+                margin: 170px 0 50px;
+            }
+        }
+    }
+}
+@media (min-height: 1250px) {
+    .login-wrapper {
+        .bg-pic {
+            img {
+                height: 1350px;
+            }
+        }
+    }
+}

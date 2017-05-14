@@ -1,0 +1,24 @@
+.wizard {
+    border-radius: 0 !important;
+    @include borders($wizard-borders);
+    .wizard-item {
+        color: $text-dark;
+        vertical-align: text-bottom;
+        .wizard-pill {
+            border-radius: 100%;
+            border: 1px solid $brand-primary;
+            padding: 0.2rem 0.5rem;
+        }
+        .wizard-text{
+          margin:0 0.6rem 0 0.3rem;
+        }
+
+    }
+    .active {
+        font-weight: bold;
+        .wizard-pill {
+          background-color: $brand-primary;
+          color: #fff;
+        }
+    }
+}

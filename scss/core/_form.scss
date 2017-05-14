@@ -1,0 +1,63 @@
+.form-pb {
+    .form-group {
+        .form-control-label {
+            color: $text-grey;
+            font-weight: bold;
+        }
+
+        .control-switch {
+            border: 0 !important;
+
+            .control-switch-label-right {
+                margin-left: 1rem;
+                color: $text-dark;
+                font-weight: bold;
+            }
+            .control-switch-label-left {
+                font-size: 1em;
+            }
+
+        }
+    }
+    .date-picker-group {
+      .react-datepicker__input-container{
+        width: 100%;
+      }
+      input{
+        width: 100%;
+        border-top-right-radius:0;
+        border-bottom-right-radius:0;
+        border-right: 0;
+      }
+      .input-group-addon {
+        border-left: 0;
+        border-top-left-radius:0;
+        border-bottom-left-radius:0;
+        background-color: #fff;
+        font-size: 1.5em;
+        color: $gray-lighter;
+      }
+    }
+    .has-danger {
+        .form-control-label {
+            color: $brand-danger !important;
+        }
+    }
+
+    .checkbox {
+        label {
+            color: $text-msg;
+
+            input {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+@include media-breakpoint-down(md) {
+  .form-users {
+      .btn-inline {
+          width: 100%;
+      }
+  }
+}

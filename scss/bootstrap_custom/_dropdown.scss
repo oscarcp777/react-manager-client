@@ -1,0 +1,59 @@
+// Links, buttons, and more within the dropdown menu
+.dropdown-item {
+  position: relative;
+  padding: 10px 20px;
+  border-bottom: 1px solid $dropdown-border-color;
+  color: $text-dark;
+  font-weight: 600;
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  i {
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: -10px;
+    color: $text-dark;
+    text-align: center;
+  }
+
+  .badge {
+    position: absolute;
+    right: 10px;
+    margin-top: 2px;
+  }
+  a{
+      color: $text-dark;
+      text-decoration: none;
+  }
+  a:focus, a:hover {
+    color: #2EA2F8;
+  }
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #2EA2F8;
+}
+// Dropdown section headers
+.dropdown-header {
+  padding: 8px 20px;
+  background: $dropdown-divider-bg;
+  border-bottom: 1px solid $dropdown-border-color;
+
+  .btn {
+    margin-top: -7px;
+    color: $dropdown-header-color;
+
+    &:hover {
+      color: $body-color;
+    }
+
+    &.pull-right {
+      margin-right: -20px;
+    }
+  }
+}
+
+.dropdown-menu-lg {
+  width: 250px;
+}

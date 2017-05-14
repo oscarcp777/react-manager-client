@@ -1,0 +1,58 @@
+.table-outline {
+    border: 1px solid $table-border-color;
+
+    td {
+        vertical-align: middle;
+    }
+}
+
+.table-align-middle {
+    td {
+        vertical-align: middle;
+    }
+}
+
+.table-clear {
+    td {
+        border: 0;
+    }
+}
+
+.table thead th {
+    color: $text-grey;
+    font-weight: 500;
+}
+
+.table tbody td {
+    color: $text-dark;
+    font-weight: 500;
+
+    .user-avatar {
+        padding-right: 1rem;
+
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .icon-avatar {
+        padding-right: 1rem;
+        i {
+            color: $user-icon-bg;
+            font-size: 1.6rem;
+        }
+    }
+    .td-message{
+        text-align: center;
+        color: $text-grey;
+        min-height: 200px;
+        margin-top: 100px;
+    }
+}
+
+.table-clear td,
+.table-clear th {
+    border: 0 !important;
+    padding: 0 !important;
+}

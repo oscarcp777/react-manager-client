@@ -1,0 +1,112 @@
+// Core Admin Variables
+$enable-sidebar-nav-rounded: false;
+$border-color: $gray-lighter;
+$layout-transition-speed: 0.25s; // Social Colors
+$facebook: #3b5998;
+$twitter: #00aced;
+$linkedin: #4875b4;
+$google-plus: #d34836;
+$flickr: #ff0084;
+$tumblr: #32506d;
+$xing: #026466;
+$github: #4183c4;
+$html5: #e34f26;
+$openid: #f78c40;
+$stack-overflow: #fe7a15;
+$youtube: #b00;
+$css3: #0170ba;
+$dribbble: #ea4c89;
+$google-plus: #bb4b39;
+$instagram: #517fa4;
+$pinterest: #cb2027;
+$vk: #45668e;
+$yahoo: #400191;
+$behance: #1769ff;
+$dropbox: #007ee5;
+$reddit: #ff4500;
+$spotify: #7ab800;
+$vine: #00bf8f;
+$text-grey: #7F8FA4;
+$text-dark: #354052;
+$foursquare: #1073af;
+$vimeo: #aad450; // Navbar
+$navbar-height: 70px;
+$navbar-bg: #fff;
+$navbar-border: ( bottom: ( size: 1px, style: solid, color: $border-color ) );
+$navbar-brand-width: 200px;
+$navbar-brand-bg: #fff;
+$navbar-brand-logo-size: 70px auto;
+$navbar-logo-width: 200px;
+$navbar-logo-margin: 10px 0;
+$navbar-breadcrumbs-px-1: $text-dark;
+$navbar-brand-border: ( bottom: ( size: 1px, style: solid, color: $border-color ) );
+$navbar-color: rgba(127, 143, 164, 1);
+$navbar-hover-color: rgba(127, 143, 164,.6);
+$navbar-active-color: rgba(127, 143, 164,.8);
+$navbar-disabled-color: rgba(127, 143, 164,.15); // Sidebar
+$sidebar-width: 200px;
+$sidebar-padding: 0;
+$sidebar-compact-width: 50px;
+$sidebar-compact-height: $sidebar-compact-width;
+$sidebar-color: #fff;
+$sidebar-bg: #fff;
+$sidebar-header-bg: rgba(0,0,0,.2);
+$sidebar-footer-bg: rgba(0,0,0,.2);
+$sidebar-borders: none;
+$mobile-sidebar-width: 220px; // Sidebar Navigation
+$sidebar-nav-color: #fff;
+$sidebar-nav-title-padding-y: 0.75rem;
+$sidebar-nav-title-padding-x: 1rem;
+$sidebar-nav-title-color: $gray-lighter;
+$sidebar-nav-link-padding-y: 0.75rem;
+$sidebar-nav-link-padding-x: 1.8rem;
+$sidebar-nav-link-color: $text-grey;
+$sidebar-nav-link-bg: transparent;
+$sidebar-nav-link-icon-color: $text-grey;
+$sidebar-nav-link-borders: 0;
+$sidebar-nav-link-hover-color: #fff;
+$sidebar-nav-link-hover-bg: $brand-primary;
+$sidebar-nav-link-hover-icon-color: #fff !important;
+$sidebar-nav-link-hover-borders: 0;
+$sidebar-nav-link-active-color: #fff;
+$sidebar-nav-link-active-bg: $brand-primary;
+$sidebar-nav-link-active-icon-color: #fff;
+$sidebar-nav-link-active-borders: 0;
+$sidebar-nav-dropdown-color: #fff;
+$sidebar-nav-dropdown-bg: rgba(0,0,0,.2);
+$sidebar-nav-dropdown-borders: 0; // Top Navigation
+$top-nav-bg: #fff;
+$top-nav-color: $body-color;
+$top-nav-borders: ( bottom: ( size: 1px, style: solid, color: $border-color ) );
+$top-nav-ul-borders: ( all: ( size: 1px, style: solid, color: $border-color ) );
+$calendar-borders: ( all: ( size: 1px, style: solid, color: $border-color ) );
+$top-nav-hover-color: #fff;
+$top-nav-hover-bg: $brand-primary;
+$top-nav-active-color: #fff;
+$top-nav-active-bg: $brand-primary;
+$top-nav-height: $navbar-height - 15px; // Breadcrumb
+$breadcrumb-borders: ( bottom: ( size: 1px, style: solid, color: $border-color ) ); // Aside
+$sidebars-borders: ( right: ( size: 1px, style: solid, color: $border-color ) ); // Aside
+$wizard-borders: ( left: ( size: 1px, style: solid, color: $border-color ) ); // Aside
+$aside-menu-width: 250px;
+$aside-menu-color: $gray-dark;
+$aside-menu-bg: #fff;
+$aside-menu-borders: ( left: ( size: 1px, style: solid, color: $border-color ) );
+$aside-menu-nav-padding-y: 0.75rem;
+$aside-menu-nav-padding-x: 1rem; // Footer
+$footer-height: 50px;
+$footer-bg: #EFF3F6;
+$footer-color: $body-color;
+$footer-borders: ( top: ( size: 1px, style: solid, color: $footer-bg ) ); // Cards
+$card-icon-bg: transparent;
+$card-icon-color: $body-color;
+$main-margin-top: 20px; // Login
+$public-bg: #1F84D1;
+$text-msg: #B4B4B4;
+
+$org-chart-bg-node: #37C6FB;
+$org-chart-color-line: #7F8FA4;
+$org-chart-color: #354052;
+
+$user-icon-bg:#37C6FB;
+$card-header-icon-bg: #CCD3DA;

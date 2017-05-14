@@ -1,0 +1,10 @@
+.date-picker-calendar {
+  .react-datepicker__day,
+  .react-datepicker__day-name {
+    color: $text-dark;
+  }
+  .react-datepicker__header {
+    border-bottom: 1px solid $border-color !important;
+  }
+  border: 1px solid $border-color !important;
+}
