@@ -11,14 +11,14 @@ const Public = (props) => (
             </div>
             <div className="col-lg-5 login-block m-0 p-0">
                 <div className="text-center logo">
-                    <img src="/img/logo.png" alt="" className="img-fluid"/>
+                      <i className=" fa fa-medium fa-5x text-primary"></i>
                 </div>
                 <div className="mb-3">
                     {props.children}
                 </div>
                 <div className="login-footer text-center">
                     <p>
-                        &copy; 2017 The Openmarket Europe Ltd All right reserved.
+                        &copy; 2017 All right reserved.
                     </p>
                 </div>
             </div>

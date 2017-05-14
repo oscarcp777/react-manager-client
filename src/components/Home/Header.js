@@ -24,7 +24,7 @@ const Header =(props) =>{
                     <i className="fa fa-bars"></i>
                 </button>
                 <Link to="/dashboard" className="navbar-brand">
-                    <img src="/img/logo.png" alt="Logo" className="hidden-md-down img-fluid"></img>
+                    <i className="ml-3 fa fa-medium fa-3x text-primary"></i>
                 </Link>
                 <ul className="nav navbar-nav hidden-md-down">
                     <li className="nav-item">

@@ -34,7 +34,7 @@ const RegisterForm = (props) => {
                     <div className="checkbox">
                         <label htmlFor="checkbox1">
                             <Field name="tyc" id="tyc" component="input" type="checkbox" validate={required}/>
-                            I agree to the Work.Management Terms and Privacy
+                            I agree Terms and Privacy
                         </label>
                     </div>
                 </div>

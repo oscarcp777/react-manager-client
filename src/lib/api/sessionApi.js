@@ -1,4 +1,3 @@
-import axios from 'axios';
 import {
   users,
   userDetails,
@@ -8,8 +7,6 @@ import {
 } from '../../config/data/dataMocks'
 import setAuthorizationToken from '../setAuthorizationToken'
 
-axios.defaults.baseURL = 'http://dev.work.management/api/';
-// axios.defaults.baseURL = 'http://localhost:9677/api/';
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -25,7 +22,6 @@ export const getUser = (token) => {
 
 export const fetchDetails = (id, token) => {
     setAuthorizationToken(token);
-  // return axios.get('customerREST/showCustomer', {id:id},config);
    return delay(500).then(() => userDetails);
 };
 export const register = (token,customer) => {
@@ -40,7 +36,7 @@ export const register = (token,customer) => {
       fullCompanyName: customer.Sector
   };
   setAuthorizationToken(token);
-  return axios.post('customerREST/createCustomer',newCustomer );
+    return delay(500).then(() => ({data:newCustomer}))
 };
 export const forgotPassword = (mail) => {
   return delay(500).then(() => ({data:'OK'}))
@@ -73,7 +69,6 @@ export const fetchOrganisation = () => {
       ]
   };
 
-    // return axios.post('customerREST/showCustomer', {id:'1'},config);
     return delay(500).then(() => data);
 };
 export const logout = () => {

@@ -6667,8 +6667,7 @@ app-root {
       color: #7f8fa4; }
     .app-header .navbar-brand {
       width: 100% !important;
-      margin: 0 auto !important;
-      background-image: url("../img/logo-w.png"); }
+      margin: 0 auto !important; }
     .app-header .navbar-nav {
       position: absolute;
       top: 0;
